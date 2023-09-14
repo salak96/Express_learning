@@ -28,65 +28,24 @@ npm express
 ```bash
 npm i nodemon
 ```
-
-
-## Programmatic
-
--   Setting DB buat dulu DB sesuai nama contoh mydb dan sesuai password
-
-```bash
-import { Pool, Client } from 'pg'
-
-const pool = new Pool({
-  user: 'dbuser',
-  host: 'database.server.com',
-  database: 'mydb',
-  password: 'secretpassword',
-  port: 3211,
-})
-
-```
-
--   atau
-
-```bash
-const {Pool} = require('pg');
-
-const pool = new Pool({
-    user: 'postgres', 
-    host: 'localhost',//mode local
-    database: 'mydb',//nama db
-    password: 'root',//sesuai pc 
-    port: 5432, // default port postgres
-})
-
-pool.query('SELECT NOW()', (err, res) => {
-   if(err){
-       console.log(err);
-   }else{
-       console.log(res);
-   }
-})
-```
-
+## Programmatic DB
 -   Create file Connection.js
 
 ```bash
 touch connection.js
 ```
-
--   Isi file Connection.js
+- Isi file Connection.js
 
 ```bash
 const {Pool} = require('pg')
 # configurasi DB
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'to-do',
-    password: 'root',
-    port: 5432,
-    idleTimeoutMillis: 100
+    user: 'postgres',   #Sesuaikan
+    host: 'localhost',  #Sesuaikan
+    database: 'to-do',  #Sesuaikan 
+    password: 'root',   #Sesuaikan
+    port: 5432,         #Sesuaikan
+    idleTimeoutMillis: 100  #biar tidak pull.end()
 })
 # Cek koneksi db dengan waktu sekarang
  pool.query('SELECT NOW()', (err, res) => {
