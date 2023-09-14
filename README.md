@@ -19,7 +19,7 @@ Node.js To-Do List adalah aplikasi web sederhana yang dibangun menggunakan tekno
 ```bash
 npm i pg
 ```
--- install express
+- install express
 ```bash
 npm express
 ```
