@@ -1,7 +1,7 @@
 [
-    {"id":1,"fullName":"Codie","gender":"Sawyers","email":"csawyers0@yahoo.com"},
-    {"id":2,"fullName":"Jorie","gender":"Courvert","email":"jcourvert1@shinystat.com"},
-    {"id":3,"fullName":"Jens","gender":"Pinel","email":"jpinel2@ucoz.com"},
-    {"id":4,"fullName":"Danyette","gender":"Horche","email":"dhorche3@qq.com"},
-    {"id":5,"fullName":"Kaitlin","gender":"Olive","email":"kolive4@timesonline.co.uk"}
+    {"id":1,"fullName":"Codie","email":"csawyers0@yahoo.com","gender":"Male"},
+    {"id":2,"fullName":"Jorie","email":"jcourvert1@shinystat.com","gender":"Female"},
+    {"id":3,"fullName":"Jens","email":"jpinel2@ucoz.com","gender":"Male"},
+    {"id":4,"fullName":"Danyette","email":"dhorche3@qq.com","gender":"Female"},
+    {"id":5,"fullName":"Kaitlin","email":"kolive4@timesonline.co.uk","gender":"Female"}
 ]

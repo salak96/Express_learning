@@ -134,3 +134,11 @@ touch seeder.js
 ```bash
 mkdir data
 ```
+
+- Bikin data Dumy di situs
+
+```bash
+https://mockaroo.com/
+```
+
+
