@@ -1,39 +1,37 @@
 [
-    {
-        "title"     : "Digital Marketing",
-        "status"    : false,
-        "deadline"  : "2024-01-01",
-        "priority"  : "M",
-        "userId"    : 3
-    },
-    {
-        "title"     : "Kelas Ekonomi",
-        "status"    : false,
-        "deadline"  : "2024-04-03",
-        "priority"  : "M",
-        "userId"    : 2
-    },
-    {
-        "title"     : "Komunikasi",
-        "status"    : false,
-        "deadline"  : "2024-01-01",
-        "priority"  : "M",
-        "userId"    : 3
-    },
-    {
-        "title"     : "Progamming",
-        "status"    : true,
-        "deadline"  : "2025-01-01",
-        "priority"  : "H",
-        "userId"    : 4
-    },
-    {
-        "title"     : "Ekonomi Bisinis",
-        "status"    : true,
-        "deadline"  : "2023-11-01",
-        "priority"  : "H",
-        "userId"    : 5
-    }
- 
-
+  {
+    "title": "Digital Marketing",
+    "status": false,
+    "deadline": "2024-01-01",
+    "priority": "M",
+    "userId": 3
+  },
+  {
+    "title": "Kelas Ekonomi",
+    "status": false,
+    "deadline": "2024-04-03",
+    "priority": "M",
+    "userId": 2
+  },
+  {
+    "title": "Komunikasi",
+    "status": false,
+    "deadline": "2024-01-01",
+    "priority": "M",
+    "userId": 3
+  },
+  {
+    "title": "Progamming",
+    "status": true,
+    "deadline": "2025-01-01",
+    "priority": "H",
+    "userId": 4
+  },
+  {
+    "title": "Ekonomi Bisinis",
+    "status": true,
+    "deadline": "2023-11-01",
+    "priority": "H",
+    "userId": 5
+  }
 ]

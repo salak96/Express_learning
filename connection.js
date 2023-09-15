@@ -1,12 +1,12 @@
-const {Pool} = require('pg')
+const { Pool } = require('pg')
 //configurasi DB
 const pool = new Pool({
-    user: 'postgres',
-    host: 'localhost',
-    database: 'to-do',
-    password: 'root',
-    port: 5432,
-    idleTimeoutMillis: 100
+  user: 'postgres',
+  host: 'localhost',
+  database: 'to-do',
+  password: 'root',
+  port: 5432,
+  idleTimeoutMillis: 100,
 })
 //Cek koneksi db dengan waktu sekarang
 // pool.query('SELECT NOW()', (err, res) => {
@@ -14,4 +14,4 @@ const pool = new Pool({
 //     console.log(res.rows[0].now)
 // })
 
-module.exports = pool;
+module.exports = pool

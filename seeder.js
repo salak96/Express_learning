@@ -1,6 +1,6 @@
 //import connection dengan require
-const pool = require('./connection');
-const fs = require('fs');
+const pool = require('./connection')
+const fs = require('fs')
 // // //user dan format dengan utf-8
 // const userData = fs.readFileSync('./data/user.json', 'utf-8');
 // //task
@@ -8,11 +8,10 @@ const fs = require('fs');
 //  console.log(tasksData); //data dari file masih dalam bentuk string
 // //JSON
 // // const users = JSON.parse(userData); // data bentuk JSON
-// const tasks = JSON.parse(tasksData); 
+// const tasks = JSON.parse(tasksData);
 // // //cetak di console
 // //  console.log(users);
 //  console.log(tasks);
-
 
 // // // Membuat array dari data yang ingin dimasukkan ke dalam database
 // // const userValues = users.map((user) => {
@@ -50,7 +49,7 @@ const fs = require('fs');
 // `;
 // //push ke database dummy data
 // pool.query(query, (err, res) => {
-    
+
 //     if (err) {
 //         console.error(err);
 //     } else {

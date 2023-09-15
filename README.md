@@ -1,14 +1,14 @@
 # Project ToDoList NodeJs express
+
 Node.js To-Do List adalah aplikasi web sederhana yang dibangun menggunakan teknologi Node.js. Aplikasi ini digunakan untuk membuat, mengelola, dan mengorganisasi daftar tugas atau aktivitas yang perlu dilakukan.
 
 ## Authors
 
 - [@salak96](https://github.com/salak96)
 
-
 ## Installation project
 
--  Install my-project with npm
+- Install my-project with npm
 
 ```bash
  npm init -y
@@ -19,21 +19,27 @@ Node.js To-Do List adalah aplikasi web sederhana yang dibangun menggunakan tekno
 ```bash
 npm i pg
 ```
+
 - install express
+
 ```bash
 npm express
 ```
 
 - install nodemoon
+
 ```bash
 npm i nodemon
 ```
+
 ## Programmatic DB
--   Create file Connection.js
+
+- Create file Connection.js
 
 ```bash
 touch connection.js
 ```
+
 - Isi file Connection.js
 
 ```bash
@@ -42,7 +48,7 @@ const {Pool} = require('pg')
 const pool = new Pool({
     user: 'postgres',   #Sesuaikan
     host: 'localhost',  #Sesuaikan
-    database: 'to-do',  #Sesuaikan 
+    database: 'to-do',  #Sesuaikan
     password: 'root',   #Sesuaikan
     port: 5432,         #Sesuaikan
     idleTimeoutMillis: 100  #biar tidak pull.end()
@@ -56,11 +62,13 @@ const pool = new Pool({
 module.exports = pool;
 
 ```
--  Check Koneksi db dengan query tanggal sekarang
+
+- Check Koneksi db dengan query tanggal sekarang
 
 ```bash
 node connection.js
 ```
+
 - export pool
 
 ```bash
@@ -68,13 +76,13 @@ node connection.js
 module.exports = pool;
 ```
 
--   buat file migration
+- buat file migration
 
 ```bash
 touch migration.js
 ```
 
--   isi file migration buat table
+- isi file migration buat table
 
 ```bash
 const pool = require('./connection');
@@ -117,19 +125,20 @@ CREATE TABLE IF NOT EXISTS "Tasks"(
 
 ```
 
--   Jalan migration.js dan cek di dbBwear atau navicat
+- Jalan migration.js dan cek di dbBwear atau navicat
 
 ```bash
 node migration.js
 
 ```
--   Buat dumyData Seeder
+
+- Buat dumyData Seeder
 
 ```bash
 touch seeder.js
 ```
 
--   Buat folder Data menampung datanya
+- Buat folder Data menampung datanya
 
 ```bash
 mkdir data
@@ -140,5 +149,3 @@ mkdir data
 ```bash
 https://mockaroo.com/
 ```
-
-

@@ -1,4 +1,4 @@
-const pool = require('./connection');
+const pool = require('./connection')
 //create table users
 // pool.query(`
 //     CREATE TABLE IF NOT EXISTS "Users"(
